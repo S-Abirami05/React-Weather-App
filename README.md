@@ -28,5 +28,6 @@ It integrates a weather API to fetch and display real-time weather information f
 - **package.json** – Project dependencies and configuration  
 
 ## 🚀 Live Demo
-The application is deployed online and can be accessed through the live demo link.
+The application is deployed online and can be accessed through the live demo link:
+
 https://my-weather-react-website.netlify.app/
