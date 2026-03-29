@@ -1,33 +1,21 @@
-# 🌤️ React Weather App
+# React + Vite
 
-This project is a simple weather application built using React.  
-It integrates a weather API to fetch and display real-time weather information for cities around the world.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## ✨ Features
-- 🔍 Search weather by city name
-- 🏙️ City auto-suggestion while typing
-- 🌡️ Displays temperature, humidity, and weather condition
-- 📱 Simple and responsive user interface
+Currently, two official plugins are available:
 
-## 🛠️ Technologies Used
-- ⚛️ React JS
-- 💻 JavaScript
-- 🌐 HTML
-- 🎨 CSS
-- ☁️ Weather API
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## ⚙️ How It Works
-1. User enters a city name in the search box.
-2. The application provides auto-suggestions for cities.
-3. When the user selects a city, the app fetches weather data from the API.
-4. Weather details such as temperature, humidity, and condition are displayed on the screen.
+## React Compiler
 
-## 📁 Project Structure
-- **src** – React components and application logic  
-- **public** – Static files  
-- **package.json** – Project dependencies and configuration  
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🚀 Live Demo
-The application is deployed online and can be accessed through the live demo link:
+## Expanding the ESLint configuration
 
-https://my-weather-react-website.netlify.app/
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+</div>
+            <div className="condition">{getWeatherDescription(weather.weather_code)}</div>
+          </div>
